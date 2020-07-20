@@ -3,5 +3,6 @@ from app import views
 
 app_name = 'app'
 urlpatterns = [
-    path('',views.index,name='index')  # 配置访问首页的路由
+    path('',views.index,name='index'),  # 配置访问首页的路由
+    path('login',views.login,name='login')
 ]
